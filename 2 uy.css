@@ -1,0 +1,27 @@
+ body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      margin: 50px;
+      background: #fff;
+    }
+    .container {
+      width: 400px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 10px;
+    }
+    header, nav, section, article, aside, footer {
+      padding: 20px;
+      margin: 5px;
+      border-radius: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+    header { background: #b3e5fc; }
+    nav { background: #f8bbd0; }
+    section { background: #f0f4c3; float: left; width: 27%; height: 100px; }
+    aside { background: #fff9c4; float: right; width: 46%; height: 160px; text-align: center;}
+    article { background: #e1bee7; clear: both; width: 27%; height: 80px; }
+    footer { background: #c8e6c9; height: 20px; }
